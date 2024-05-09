@@ -1,0 +1,84 @@
+{
+  "technologies": [
+    {
+      "name": "React",
+      "svg": "/icons/technologies/React.svg"
+    },
+    {
+      "name": "MongoDB",
+      "svg": "/icons/technologies/MongoDB.svg"
+    },
+    {
+      "name": "Node",
+      "svg": "/icons/technologies/Node.js.svg"
+    },
+    {
+      "name": "Express",
+      "svg": "/icons/technologies/Express.svg"
+    },
+    {
+      "name": "Tailwind",
+      "svg": "/icons/technologies/Tailwind.CSS.svg"
+    },
+    {
+      "name": "JavaScript",
+      "svg": "/icons/technologies/JavaScript.svg"
+    },
+    {
+      "name": "TypeScript",
+      "svg": "/icons/technologies/TypeScript.svg"
+    },
+    {
+      "name": "HTML",
+      "svg": "/icons/technologies/HTML5.svg"
+    },
+    {
+      "name": "CSS",
+      "svg": "/icons/technologies/CSS3.svg"
+    },
+    {
+      "name": "Astro",
+      "svg": "/icons/technologies/Astro.svg"
+    },
+    {
+      "name": "Laravel",
+      "svg": "/icons/technologies/Laravel.svg"
+    },
+    {
+      "name": "MySQL",
+      "svg": "/icons/technologies/MySQL.svg"
+    },
+    {
+      "name": "Livewire",
+      "svg": "/icons/technologies/Livewire.svg"
+    },
+    {
+      "name": "Bootstrap",
+      "svg": "/icons/technologies/Bootstrap.svg"
+    },
+    {
+      "name": "PHP",
+      "svg": "/icons/technologies/PHP.svg"
+    },
+    {
+      "name": "GitHub",
+      "svg": "/icons/technologies/GitHub.svg"
+    },
+    {
+      "name": "Git",
+      "svg": "/icons/technologies/Git.svg"
+    },
+    {
+      "name": "Next",
+      "svg": "/icons/technologies/Next.js.svg"
+    },
+    {
+      "name": "Vercel",
+      "svg": "/icons/technologies/Vercel.svg"
+    },
+    {
+      "name": "Three",
+      "svg": "/icons/technologies/Three.js.svg"
+    }
+  ]
+}

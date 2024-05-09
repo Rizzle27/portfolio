@@ -1,0 +1,106 @@
+{
+  "projects": [
+    {
+      "title": "ready",
+      "description": "Desarrollada con JavaScript y React como framework principal, “ready” es una app para la administración de proyectos que otorga medallas a los usuarios por las tareas completadas que pueden ser intercambiadas por recompensas reales. Fue desarrollada con el objetivo de venderla a un cliente ficticio que fueron los profesores.",
+      "technologies": [
+        "JavaScript",
+        "React",
+        "Node",
+        "MongoDB",
+        "Express",
+        "Tailwind",
+        "CSS",
+        "HTML"
+      ],
+      "images": ["/images/ready-panel.png", "/images/skyscenic-inicio.png"],
+      "git": "url_del_repositorio_git",
+      "url": "https://ready-app-gamma.vercel.app"
+    },
+    {
+      "title": "SkyScenic",
+      "description": "“SkyScenic” es una red social dirigida a entusiastas de la aeronáutica, permitiendo a los usuarios compartir y descubrir fotos relacionadas con esta temática. Durante el desarrollo del proyecto, el equipo se enfrentó al desafío de dominar PHP y Laravel para crear una interfaz reactiva, optando por utilizar Livewire para lograr una experiencia más interactiva. Además, se implementó con éxito la integración de Mercado Pago para gestionar las suscripciones de los usuarios a las membresías premium.",
+      "technologies": [
+        "PHP",
+        "Laravel",
+        "Livewire",
+        "MySQL",
+        "JavaScript",
+        "Bootstrap",
+        "CSS",
+        "HTML"
+      ],
+      "images": ["/images/skyscenic-inicio.png"],
+      "git": "url_del_repositorio_git"
+    },
+    {
+      "title": "Tres Ases",
+      "description": "Clon de un ecommerce de ropa con carrito incluido desarrollado con Service Worker y local storage. El objetivo fue mejorar la interactividad en comparación a la del sitio oficial.",
+      "technologies": [
+        "JavaScript",
+        "Bootstrap",
+        "CSS",
+        "HTML"
+      ],
+      "images": ["/images/tresases-inicio.png"],
+      "git": "url_del_repositorio_git",
+      "url": "https://tresases.vercel.app/"
+    },
+    {
+      "title": "DreamManga",
+      "description": "Ecommerce de comics desarrollado con php donde aprendí sobre la programación orientada a objetos con PHP.",
+      "technologies": [
+        "PHP",
+        "Bootstrap",
+        "JavaScript",
+        "CSS",
+        "HTML"
+      ],
+      "images": ["/images/dreammanga-inicio.png"],
+      "git": "url_del_repositorio_git"
+    },
+    {
+      "title": "Jiten",
+      "description": "Diccionario japonés desarrollado mediante el consumo de una API externa y guardando la información con local sotrage.",
+      "technologies": [
+        "JavaScript",
+        "CSS",
+        "HTML"
+      ],
+      "images": ["/images/jiten-inicio.png"],
+      "git": "url_del_repositorio_git",
+      "url": "https://jiten.vercel.app/"
+    },
+    {
+      "title": "KickFlip",
+      "description": "Ecommerce para los amantes del skateboarding desarrollado con Wordpress y WooCommerce.",
+      "technologies": [
+        "Wordpress",
+        "JavaScript",
+        "CSS"
+      ],
+      "images": ["/images/kickflip-inicio.png"],
+      "git": "url_del_repositorio_git"
+    },
+    {
+      "title": "Miniambientes",
+      "description": "Ecommerce de artículos para mascotas inspirado en la navegación de Mercado Libre.",
+      "technologies": [
+        "Photoshop",
+        "Illustrator"
+      ],
+      "images": ["/images/miniambientes.jpg"],
+      "git": "url_del_repositorio_git",
+      "url": "https://lucas717413.invisionapp.com/console/share/M3DWHV8ENJK/977473149"
+    },
+    {
+      "title": "Logitech",
+      "description": "Landing page informativa sobre un mouse de Logitech diseñada con Photoshop.",
+      "technologies": [
+        "Photoshop"
+      ],
+      "images": ["/images/logitech-inicio.png"],
+      "git": "url_del_repositorio_git"
+    }
+  ]
+}
