@@ -1,6 +1,7 @@
 {
   "extends": "astro/tsconfigs/base",
   "compilerOptions": {
+    "moduleResolution": "Bundler",
     "plugins": [
       {
         "name": "@astrojs/ts-plugin"
@@ -8,14 +9,14 @@
     ],
     "baseUrl": "C:/xampp/htdocs/Portfolio/portfolio",
     "paths": {
+      "@/*": [
+        "src/*"
+      ],
       "@cv": [
         "./portfolio.json"
       ],
       "@techs": [
         "./technologies.json"
-      ],
-      "@/*": [
-        "src/*"
       ]
     },
     "jsx": "react-jsx",
