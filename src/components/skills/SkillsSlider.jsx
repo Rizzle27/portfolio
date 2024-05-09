@@ -1,4 +1,4 @@
-import { technologies } from "@techs"
+import { technologies } from "../../../technologies.json"
 
 // Swiper requires
 import { Swiper, SwiperSlide } from 'swiper/react';

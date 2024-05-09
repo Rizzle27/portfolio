@@ -1,4 +1,4 @@
-import { projects } from "@cv";
+import { projects } from "../../../portfolio.json";
 import { useState } from "react";
 
 // Swiper requires
