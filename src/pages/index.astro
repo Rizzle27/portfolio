@@ -2,17 +2,19 @@
 import '@fontsource-variable/montserrat';
 import Layout from '../layouts/Layout.astro';
 import Header from '../components/Header.astro';
-import Portfolio from "../components/portfolio/Portfolio.astro"
+import Portfolio from "../components/portfolio/Portfolio.astro";
 import Skills from '../components/skills/Skills.astro';
+import Contact from '../components/contact/Contact.astro';
 import Footer from '../components/Footer.astro';
 ---
 
 <Layout title="Lucas García | Portfolio">
 	<div class="background-pattern fixed top-0 bottom-0 -left-0 right-0 -z-10"></div>
-	<main class="m-auto w-[90%] lg:w-[80%] xl:w-[70%] 2xl:w-[60%] font-montserrat">
+	<main class="m-auto w-[90%] lg:w-[70%] xl:w-[60%] 2xl:w-[60%] font-montserrat">
 		<Header />
 		<Portfolio />
 		<Skills />
+		<Contact />
 	</main>
 	<Footer />
 </Layout>

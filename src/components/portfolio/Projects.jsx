@@ -1,47 +1,41 @@
-import { projects } from "../../../portfolio.json";
-import { useState } from "react";
+import { projects } from "../../../portfolio.json"
+import ImageSlider from "./ImageSlider"
 
 // Swiper requires
-import "swiper/css";
-import "swiper/css/pagination";
+import { Swiper, SwiperSlide } from "swiper/react"
+import { Thumbs } from "swiper/modules"
+import 'swiper/css';
+import 'swiper/css/thumbs';
+import "../../styles.css"
 
 export default function Projects() {
-  const [projectIndex, setProjectIndex] = useState(0);
-
-  const project = projects[projectIndex];
-
   return (
-    <div className="flex flex-col gap-4 my-4 p-4 rounded-[12px] bg-darkJungleGreen">
-      <div className="flex flex-col gap-4">
+    <div className="grid grid-cols-1 gap-14 my-4">
 
-        <div className="relative">
-          {project.url && (
-            <a className="absolute right-0 w-12 bg-jade opacity-50 hover:opacity-100 duration-200" href={project.url}>
-              <img src="/icons/link-48.svg" alt={`Link al proyecto ${project.title}`} />
-            </a>
-          )}
-          <img className="rounded-[8px]" src={project.images[0]} alt={`Imágen del proyecto ${project.title}`} />
-        </div>
+      {
+        projects.map((project, index) => (
+          <div key={index} className="flex flex-col gap-4 p-4 rounded-[12px] bg-darkJungleGreen">
 
-        <div className="flex gap-2 lg:gap-4">
-          {
-            projects.map((project, index) => (
-              <button className={`${projectIndex == index && "border-2 border-jade"} aspect-video rounded-[8px]`} key={index} onClick={() => setProjectIndex(index)}>
-                <img className="rounded-[6px]" src={project.images[0]} alt={`Miniatura principal del proyecto ${project.title}`} />
-              </button>
-            ))
-          }
-        </div>
+            <div className="flex flex-row gap-4">
+            
+              <ImageSlider project={project} />
 
-      </div>
+            </div>
+      
+            <div className="flex flex-col gap-6 justify-between">
+              <h3 className="text-jade text-3xl font-semibold">{project.title}</h3>
+              <p className="text-white">{project.description}</p>
+              <div className="flex flex-wrap gap-2">
+                {project.technologies.map((tech, index) => (
+                  <span key={index} className="px-4 text-white border-2 border-jade rounded-full">{tech}</span>
+                ))}
+              </div>
+            </div>
 
-      <h3 className="text-jade text-3xl font-medium">{project.title}</h3>
-      <p className="text-white">{project.description}</p>
-      <div className="flex flex-wrap gap-2">
-        {project.technologies.map((tech, index) => (
-          <span className="px-4 text-white border-2 border-jade rounded-full" key={index}>{tech}</span>
-        ))}
-      </div>
+          </div>
+        ))
+      }
+
     </div>
   );
 }

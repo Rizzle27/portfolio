@@ -1,25 +1,28 @@
-.swiper {
+/* Projects swiper */
+
+/* Skills swiper */
+.skills_swiper {
   width: 100%;
   padding-top: 50px;
   padding-bottom: 50px;
 }
 
-.swiper-slide {
+.skills_swiper-slide {
   background-position: center;
   background-size: cover;
   width: 200px;
   height: 200px;
 }
 
-.swiper-slide img {
+.skills_swiper-slide img {
   display: block;
   width: 100%;
 }
 
 .swiper-pagination-bullet {
-  background-color: #fff;
+  background-color: #fff !important;
 }
 
 .swiper-pagination-bullet-active {
-  background-color: #279f83;
+  background-color: #279f83 !important;
 }
