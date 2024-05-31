@@ -1,23 +1,6 @@
 {
   "projects": [
     {
-      "title": "ready",
-      "description": "Desarrollada con JavaScript y React como framework principal, “ready” es una app para la administración de proyectos que otorga medallas a los usuarios por las tareas completadas que pueden ser intercambiadas por recompensas reales. Fue desarrollada con el objetivo de venderla a un cliente ficticio que fueron los profesores.",
-      "technologies": [
-        "JavaScript",
-        "React",
-        "Node",
-        "MongoDB",
-        "Express",
-        "Tailwind",
-        "CSS",
-        "HTML"
-      ],
-      "images": ["/images/ready-login.png", "/images/ready-home.png", "/images/ready-panel.png", "/images/ready-profile.png"],
-      "git": "url_del_repositorio_git",
-      "url": "https://ready-app-gamma.vercel.app"
-    },
-    {
       "title": "SkyScenic",
       "description": "“SkyScenic” es una red social dirigida a entusiastas de la aeronáutica, permitiendo a los usuarios compartir y descubrir fotos relacionadas con esta temática. Durante el desarrollo del proyecto, el equipo se enfrentó al desafío de dominar PHP y Laravel para crear una interfaz reactiva, optando por utilizar Livewire para lograr una experiencia más interactiva. Además, se implementó con éxito la integración de Mercado Pago para gestionar las suscripciones de los usuarios a las membresías premium.",
       "technologies": [
@@ -58,6 +41,23 @@
       ],
       "images": ["/images/dreammanga-home.png", "/images/dreammanga-categories.png", "/images/dreammanga-product.png", "/images/dreammanga-cart.png"],
       "git": "url_del_repositorio_git"
+    },
+    {
+      "title": "ready",
+      "description": "Desarrollada con JavaScript y React como framework principal, “ready” es una app para la administración de proyectos que otorga medallas a los usuarios por las tareas completadas que pueden ser intercambiadas por recompensas reales. Fue desarrollada con el objetivo de venderla a un cliente ficticio que fueron los profesores.",
+      "technologies": [
+        "JavaScript",
+        "React",
+        "Node",
+        "MongoDB",
+        "Express",
+        "Tailwind",
+        "CSS",
+        "HTML"
+      ],
+      "images": ["/images/ready-login.png", "/images/ready-home.png", "/images/ready-panel.png", "/images/ready-profile.png"],
+      "git": "url_del_repositorio_git",
+      "url": "https://ready-app-gamma.vercel.app"
     },
     {
       "title": "Jiten",
