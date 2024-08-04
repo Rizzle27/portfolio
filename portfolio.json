@@ -79,7 +79,7 @@
         "JavaScript",
         "CSS"
       ],
-      "images": ["/images/kickflip-home.png"],
+      "images": ["/images/kickflip-home.png", "/images/kickflip-service.png", "/images/kickflip-products.png", "/images/kickflip-reviews.png"],
       "git": "url_del_repositorio_git"
     },
     {
