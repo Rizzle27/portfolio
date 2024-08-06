@@ -1,15 +1,29 @@
 {
   "projects": [
     {
+      "title": "MELI Tools",
+      "description": "MELI Tools es una poderosa herramienta diseñada para revolucionar tu experiencia de compra en Mercado Libre. Con esta extensión, podrás comparar precios entre diferentes productos del mismo tipo con una precisión asombrosa gracias a nuestros avanzados filtros. El objetivo de MELI Tools es simple pero poderoso: ayudarte a ahorrar tiempo y dinero. Ahora, encontrar el mejor precio para un producto será más fácil que nunca. Ya sea por su condición, cuotas, color o cualquier otra característica, MELI Tools es capaz de filtrar y encontrar exactamente lo que necesitas.",
+      "technologies": [
+        "React",
+        "Tailwind",
+        "JavaScript",
+        "CSS",
+        "HTML"
+      ],
+      "images": ["/images/mt-1.png", "/images/mt-2.png", "/images/mt-3.png"],
+      "git": "url_del_repositorio_git",
+      "url": "https://chromewebstore.google.com/detail/meli-tools/eechaknlmgfdhpappkebkknikipdhfeg"
+    },
+    {
       "title": "SkyScenic",
       "description": "“SkyScenic” es una red social dirigida a entusiastas de la aeronáutica, permitiendo a los usuarios compartir y descubrir fotos relacionadas con esta temática. Durante el desarrollo del proyecto, el equipo se enfrentó al desafío de dominar PHP y Laravel para crear una interfaz reactiva, optando por utilizar Livewire para lograr una experiencia más interactiva. Además, se implementó con éxito la integración de Mercado Pago para gestionar las suscripciones de los usuarios a las membresías premium.",
       "technologies": [
-        "PHP",
         "Laravel",
         "Livewire",
-        "MySQL",
-        "JavaScript",
         "Bootstrap",
+        "MySQL",
+        "PHP",
+        "JavaScript",
         "CSS",
         "HTML"
       ],
@@ -46,12 +60,12 @@
       "title": "ready",
       "description": "Desarrollada con JavaScript y React como framework principal, “ready” es una app para la administración de proyectos que otorga medallas a los usuarios por las tareas completadas que pueden ser intercambiadas por recompensas reales. Fue desarrollada con el objetivo de venderla a un cliente ficticio que fueron los profesores.",
       "technologies": [
-        "JavaScript",
         "React",
         "Node",
         "MongoDB",
         "Express",
         "Tailwind",
+        "JavaScript",
         "CSS",
         "HTML"
       ],

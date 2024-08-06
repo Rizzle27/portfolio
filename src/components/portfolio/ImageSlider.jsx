@@ -4,7 +4,7 @@ export default function ImageSlider({ project }) {
   const [mainImage, setMainImage] = useState(0)
 
   return(
-    <div className="flex flex-col lg:flex-row gap-4">
+    <div className="flex flex-col gap-4">
       <div className="relative">
         {
           project.url && (
@@ -16,7 +16,7 @@ export default function ImageSlider({ project }) {
         <img className="aspect-video rounded-[8px]" src={project.images[mainImage]} alt={`Caputra del proyecto ${project.title}`} />
       </div>
 
-      <div className="flex lg:flex-col gap-4 h-10 w-[35%]">
+      <div className="flex gap-4 h-10 lg:h-14">
         {
           project.images.map((image, index) => (
             <button key={index} className={`${index == mainImage && "border-2 border-jade rounded-[8px]"} relative aspect-video`} onClick={() => setMainImage(index)}>
@@ -27,7 +27,7 @@ export default function ImageSlider({ project }) {
                   </div>
                 )
               }
-              <img className="object-cover w-full h-full rounded-[6px]" src={image} alt={`Miniatura ${index + 1} del proyecto ${project.title}`} />
+              <img className="object-cover w-full h-full rounded-[6px]" src={image} alt={`Miniatura ${index + 1} del proyecto ${project.title}`}/>
             </button>
           ))
         }
